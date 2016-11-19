@@ -17,7 +17,7 @@ Task 2 <br \>
 ```
 python3 query.py [input document] [invert index file]
 ```
-query.py can continuously querying. Ctrl+C (keyboard interrupt) ends the program. 
+query.py can search terms multiple times. Ctrl+C (keyboard interrupt) ends the program. 
 
 **Example** 
 
