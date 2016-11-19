@@ -1,6 +1,6 @@
-# IR_task1
+# Information Retrieval Assignment 1
 
-**Purpose:**  
+**Purpose**  
 
 Read in a tab delimited document, create invert index file. a program to query the invert index file. 
 
