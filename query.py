@@ -6,11 +6,11 @@ import csv
 from operator import and_
 from functools import reduce
 from time import sleep
-############################################################################
-# task : read in queries and get the document id which contains both queries  
-############################################################################
+#####################################################################################
+# task : Boolen retrieve. Entering the terms, find the wiki pages with these terms    
+######################################################################################
 
-# check document id
+# Wiki page title and id
 Document=dict()
 with open(sys.argv[1],"r") as f:
 	reader=csv.reader(f,delimiter='\t')
@@ -19,7 +19,7 @@ with open(sys.argv[1],"r") as f:
 
 print("Reading index...please wait")
 
-# index file 
+# invert index file 
 myindex_dict=dict()
 with open(sys.argv[2],"r") as f_index:
 	myindex=[line.rstrip('\n') for line in f_index]
@@ -30,6 +30,7 @@ with open(sys.argv[2],"r") as f_index:
 		myindex_dict[key]=values
 
 print("Ready for query!")
+# infinite while loop for querying
 try:
 	while True : 
 		d_id_list=[]
