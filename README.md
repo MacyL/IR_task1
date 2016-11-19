@@ -1,10 +1,10 @@
 # IR_task1
 
-** Purpose: **  
+**Purpose:**  
 
 Read in a tab delimited document, create invert index file. a program to query the invert index file. 
 
-** Usage ** 
+**Usage** 
 
 Task 1 <br \> 
 
@@ -19,7 +19,7 @@ python3 query.py [input document] [invert index file]
 ```
 query.py can continuously querying. Ctrl+C (keyboard interrupt) ends the program. 
 
-** Example ** 
+**Example** 
 
 Task 1 <br \>
 
@@ -33,5 +33,6 @@ Task 2 <br \>
 python3 query.py tubadw-r1-ir-ids-100000 myindex.txt
 ```
 
-** python library requirements ** 
+**python library requirements** 
+
 Python version >= 3.5.1 <br \>
